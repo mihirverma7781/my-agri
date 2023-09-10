@@ -1,0 +1,48 @@
+.navbar-parent {
+  display: flex;
+  height: 70px;
+  padding: 0px 50px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.052);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  font-weight: 500;
+}
+
+.navbar-btns {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 1120px) {
+  .navbar-parent {
+    gap: 2rem;
+    padding: 0px 2rem;
+  }
+  .navbar-links {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .navbar-links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-parent {
+    gap: 1rem;
+    padding: 0px 1rem;
+  }
+}

@@ -1,0 +1,21 @@
+.navstrip-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 40px;
+  background-color: var(--green);
+  color: white;
+  font-size: 14px;
+}
+
+.navstrip-tele {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+ .navstrip-parent {
+    padding: 0.2rem 1.5rem;
+ }   
+}

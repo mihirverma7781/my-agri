@@ -1,0 +1,47 @@
+.layout-container {
+  max-width: 90%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.home-parent {
+  padding-bottom: 5rem;
+}
+
+.home-hero-content {
+  background-color: #edf2f7;
+  display: flex;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-margin {
+  margin-top: 100px;
+}
+
+.content-scroll {
+  display: flex;
+  width: 100%;
+  gap: 1.5rem;
+  overflow-x: scroll;
+  margin-top: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.content-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .home-hero-content {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-hero-content {
+    padding: 30px;
+  }
+}
